@@ -1,5 +1,5 @@
-from aula01 import meu_site, saudacoes
+from aula01 import  saudacoes
 
-print("O objeto Flask foi importado com sucesso!")
-
-print(saudacoes('Rodolfo'))
+print("importando o arquivo aula01.py")
+nome = input("Digite seu nome: ")
+print(saudacoes(nome))
